@@ -27,6 +27,7 @@
  * $Id: wl_cfg80211.c 874925 2020-04-24 08:58:32Z $
  */
 /* */
+#define ANDROID_PLATFORM_VERSION 13
 #include <typedefs.h>
 #include <linuxver.h>
 #include <linux/kernel.h>
