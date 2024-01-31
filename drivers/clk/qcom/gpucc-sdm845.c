@@ -263,7 +263,7 @@ static const struct freq_tbl ftbl_gpu_cc_gx_gfx3d_clk_src[] = {
 	F(425000000, P_CRC_DIV,  1, 0, 0),
 	F(487000000, P_CRC_DIV,  1, 0, 0),
 	F(548000000, P_CRC_DIV,  1, 0, 0),
-	F(600000000, P_CRC_DIV,  1, 0, 0),
+	F(650000000, P_CRC_DIV,  1, 0, 0),
 	{ }
 };
 
@@ -299,7 +299,7 @@ static struct clk_rcg2 gpu_cc_gx_gfx3d_clk_src = {
 			NOMINAL, 425000000,
 			NOMINAL_L1, 487000000,
 			HIGH, 548000000,
-			HIGH_L1, 600000000),
+			HIGH_L1, 650000000),
 	},
 };
 

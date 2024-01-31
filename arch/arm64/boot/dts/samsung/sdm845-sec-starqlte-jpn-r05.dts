@@ -1,5 +1,13 @@
 /dts-v1/;
 
+#include "sdm845-sec-starqlte-jpn-felica-r00.dtsi"
+#include "sdm845-camera-sensor-starqlte-r05.dtsi"
+#include "sdm845-sec-star-audio.dtsi"
+#include "sdm845-sec-starqlte-display-r00.dtsi"
+#include "sdm845-sec-starqlte-display-r01.dtsi"
+#include "sdm845-sec-starqlte-displayport-r00.dtsi"
+#include "sdm845-sec-starqlte-fingerprint-sensor-r05.dtsi"
+
 / {
 	#address-cells = <0x2>;
 	#size-cells = <0x2>;
